@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/profile_background">
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_marginLeft="0dp"-->
+<!--        android:layout_marginTop="-21dp"-->
+<!--        android:src="@drawable/background"-->
+<!--        android:contentDescription="TODO" />-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="113dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="-73dp"
+        android:layout_marginRight="-73dp"
+        android:layout_marginBottom="120dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/google3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_marginStart="-52dp"
+        android:layout_marginLeft="-52dp"
+        android:layout_marginEnd="-53dp"
+        android:layout_marginRight="-53dp"
+        android:layout_marginBottom="-59dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Long Nguyen"
+        android:textAlignment="center"
+        android:textColor="#3A2263"
+        android:textSize="30sp" />
+
+    <TextView
+
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_marginStart="-114dp"
+        android:layout_marginLeft="-114dp"
+        android:layout_marginBottom="-111dp"
+        android:background="@drawable/round_corner"
+        android:text="hom nay la thu 2"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_marginStart="-116dp"
+        android:layout_marginLeft="-116dp"
+        android:layout_marginBottom="-212dp"
+        android:background="@drawable/round_corner"
+        android:text="nhay mai la thu 3"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_marginStart="-115dp"
+        android:layout_marginLeft="-115dp"
+        android:layout_marginBottom="-309dp"
+        android:background="@drawable/round_corner"
+        android:text="ngay mot la thu 4"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginBottom="-370dp"
+        android:background="@drawable/buttoncorner"
+        android:text="Music list" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="-61dp"
+        android:text="log out"
+        android:background="@drawable/mybutton"/>
+
+</RelativeLayout>
